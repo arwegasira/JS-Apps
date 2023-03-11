@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To DO List</title>
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png" />
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/9cfdfc4e12.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h4>To Do List APP</h4>
+        <form action="" id="task-form">
+          <!-- <label for="task-input">New Task</label> -->
+          <input
+            type="text"
+            id="task-input"
+            name="task"
+            placeholder="New Task"
+          />
+          <input type="submit" value="Add Task" id="submit" />
+          <!-- <div id="submit">Submit</div> -->
+        </form>
+        <div class="actual-tasks">
+          <h4>Your Tasks</h4>
+          <input
+            type="text"
+            id="filter-task"
+            name="filter-task"
+            placeholder="Filter Tasks"
+          />
+          <ul class="collection">
+            <!-- <li class="collection-item">
+              <span>Task One</span>
+              <a href=""><i class="fa-sharp fa-solid fa-xmark"></i></a>
+            </li>
+            <li class="collection-item">
+              <span>Task One</span>
+              <a href=""><i class="fa-sharp fa-solid fa-xmark"></i></a>
+            </li>
+            <li class="collection-item">
+              <span>Task One</span>
+              <a href=""><i class="fa-sharp fa-solid fa-xmark"></i></a>
+            </li> -->
+          </ul>
+          <button id="clear-task">Clear Task</button>
+        </div>
+      </div>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
