@@ -5,6 +5,8 @@ const port = process.env.PORT || 3000
 
 //useful packages
 require('dotenv').config()
+const xss = require('xss-clean')
+app.use(xss())
 app.use(express.static('./Todo-FrontEnd'))
 
 //security packages
